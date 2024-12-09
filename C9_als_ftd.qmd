@@ -1,0 +1,625 @@
+---
+title: "C9-ALS/FTD"
+subtitle: IMED 7170
+
+format:
+  revealjs:
+    theme: serif
+    # incremental: true
+    footnotes-hover: true
+    slide-number: true
+    scrollable: true
+    progress: true
+    embed-resources: true
+    # chalkboard: true
+    css: oct_jc.css
+
+revealjs-plugins:
+  - pointer
+
+author:
+  - name: Andy Van Domelen
+    email: vandomea@myumanitoba.ca
+---
+
+
+
+
+## Overview
+
+
+:::: {.columns}
+::: {.column width=60%}
+
+:::{.fragment .fade-in-then-semi-out fragment-index=1}
+**ALS-FTD**
+:::
+
+:::{.fragment .fade-in fragment-index=2 style="font-size: 40pt;"}
+**C9orf72**
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=3}
+Healthy function
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=4}
+Hexanucleotide Repeat Expansion (HRE)
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=5}
+Pathogenic Mechanisms
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=6}
+**Treatments**
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=7}
+**In the Clinic**
+:::
+
+:::{.fragment .fade-in fragment-index=8}
+**Future Directions**
+:::
+  
+:::
+::::
+
+
+:::{.fragment .fade-in-then-out fragment-index=1}
+::: {.button-container style="position:absolute; top: 50px; left: 450px; width: 600px; height: auto;"}
+[![](img/ALS_system.png)](https://www.nature.com/articles/nrdp201771){target="_blank"}
+:::
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=2}
+::: {.button-container style="position:absolute; top: 200px; left: 250px; width: 800px; height: auto;"}
+[![](img/chr_9.png)](https://commons.wikimedia.org/w/index.php?curid=61368792){target="_blank"}
+:::
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=3}
+::: {.button-container style="position:absolute; top: 200px; left: 350px; width: 750px; height: auto;"}
+[![](img/autophagy.webp)](https://blog.cellsignal.com/autophagy-its-a-cell-eat-cell-world){target="_blank"}
+:::
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=4}
+::: {.button-container style="position:absolute; top: 375px; left: 350px; width: 650px; height: auto;"}
+[![](img/C9_repeats.png)](https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(14)70233-9/abstract){target="_blank"}
+:::
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=5}
+::: {.button-container style="position:absolute; top: 375px; left: 455px; width: 600px; height: auto;"}
+[![](img/C9_path.png)](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2020.00684/full){target="_blank"}
+:::
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=6}
+::: {.button-container style="position:absolute; top: 475px; left: 380px; width: 650px; height: auto;"}
+[![](img/ASO_quick.png)](https://www.nature.com/articles/nrneurol.2017.148){target="_blank"}
+:::
+:::
+
+## ALS and FTD
+### Amyotrophic Lateral Sclerosis {style="color: gray; font-size: 25pt;"}
+
+:::: {.columns}
+::: {.column width=60%}
+
+:::{.fragment .fade-in-then-semi-out fragment-index=1 }
+Complex disease of motor neurons
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=2}
+[Muscle *and* cognitive impairment]{.smaller-text}
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=3}
+Familial and sporadic
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=4}
+[Numerous molecular factors influence expression]{.smaller-text}
+:::
+
+:::
+::::
+
+:::{.fragment .fade-in-then-out fragment-index=1 style="position:absolute; top: 215px; left: 200px; width: 700px; height: auto;"}
+![](img/ALS/ALS_MN.webp)
+[Mead 2022](https://www.nature.com/articles/s41573-022-00612-2){.img-link}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=2 style="position:absolute; top: 50px; left: 550px; width: 450px; height: auto;"}
+![](img/ALS/ALS_body.png)
+[wiki](https://en.wikipedia.org/wiki/ALS){.img-link}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=3 style="position:absolute; top: 50px; left: 550px; width: 450px; height: auto;"}
+![](img/ALS/fALS_sALS.png)
+[Renton 2013](https://www.nature.com/articles/nn.3584){.img-link}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=4 style="position:absolute; top: 25px; left: 625px; width: 400px; height: auto;"}
+![](img/ALS_system.png)
+[Hardiman 2017](https://www.nature.com/articles/nrdp201771){.img-link}
+:::
+
+
+## ALS and FTD
+### Frontotemporal Dementia {style="color: gray; font-size: 25pt;"}
+
+:::: {.columns}
+::: {.column width=50%}
+
+:::{.fragment .fade-in-then-semi-out fragment-index=1}
+[Second most common form of pre-senile dementia]{.smaller-text}
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=2}
+[Frontal lobe degeneration and behavioral abnormalities]{.smaller-text}
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=3}
+Familial and sporadic
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=4}
+[Numerous molecular factors influence expression]{.smaller-text}
+:::
+
+:::
+::::
+
+
+:::{.fragment .fade-in-then-out fragment-index=1 style="position:absolute; top: 150px; left: 500px; width: 450px; height: auto;"}
+![](img/FTD/FTD_chart.jpg)
+[QBI](https://qbi.uq.edu.au/brain/dementia/types-dementia){.img-link}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=2 style="position:absolute; top: 25px; left: 550px; width: 360px; height: auto;"}
+![](img/FTD/frontal_lobe_ftd.jpg)
+[Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/21075-frontotemporal-dementia){.img-link}
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=3 style="position:absolute; top: 50px; left: 550px; width: 450px; height: auto;"}
+![](img/FTD/f_s_ftd.webp)
+[AFTD](https://www.theaftd.org/what-is-ftd/genetics-overview/){.img-link}
+:::
+
+
+
+## ALS and FTD
+### ALS/FTD {style="color: gray; font-size: 25pt;"}
+
+:::: {.columns}
+::: {.column width=50%}
+
+:::{.fragment .fade-in-then-semi-out fragment-index=1}
+[Considerable clinical overlap]{.smaller-text}
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=2}
+[Shared Molecular Signatures / biomarkers]{.smaller-text}
+:::
+
+:::{.fragment .fade-in-then fragment-index=3}
+["Spectrum"]{style="color: #cc4631;"}
+:::
+
+:::
+::::
+
+
+:::{.fragment .fade-in fragment-index=2 style="position:absolute; top: 275px; left: 300px; width: 700px; height: auto;"}
+![](img/spectrum.jpg)
+[Lee 2017](https://www.sciencedirect.com/science/article/pii/S0006899315007404){.img-link}
+:::
+
+
+
+## ALS and FTD
+### C9-related ALS/FTD {style="color: gray; font-size: 25pt;"}
+
+:::: {.columns}
+::: {.column width=50%}
+
+:::{.fragment .fade-in-then-semi-out fragment-index=1}
+Why C9orf72?
+:::
+
+:::{.nonincremental .fragment .fade-in fragment-index=3}
+-   Healthy C9orf72
+-   HRE mutation
+-   Pathology
+:::
+
+:::
+::::
+
+:::{.fragment .fade-in fragment-index=2 style="position:absolute; top: 75px; left: 375px; width: 700px; height: auto;"}
+![](img/c9/c9_als_ftd_processes.webp)
+[Balendra 2018](https://www.nature.com/articles/s41582-018-0047-2){.img-link}
+:::
+
+
+
+## C9orf72
+### Healthy C9orf72 {style="color: gray; font-size: 25pt;"}
+
+    
+:::{.fragment .fade-in-then-semi-out fragment-index=1}
+Gene Structure
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=2}
+Isoforms
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=3}
+Normal Gene Function
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=4}
+Distribution in the body
+:::
+
+
+:::{.fragment .fade-in fragment-index=1 style="position:absolute; top: 75px; left: 450px; width: 500px; height: auto;"}
+::: {.fragment .fade-out fragment-index=3}
+![](img/c9/healthy_c9.png)
+[Smeyers 2021](https://www.frontiersin.org/journals/cellular-neuroscience/articles/10.3389/fncel.2021.661447/full){.img-link}
+:::
+:::
+
+:::{.fragment .fade-in fragment-index=3 style="position:absolute; top: 75px; left: 450px; width: 600px; height: auto;"}
+![](img/c9/c9_func.webp)
+[Braems 2020](https://link.springer.com/article/10.1007/s00401-020-02214-x){.img-link}
+:::
+
+
+
+## C9orf72
+### Hexanucleotide Repeat Expansion (HRE) {style="color: gray; font-size: 25pt;"}
+
+:::: {.columns}
+::: {.column width=40%}
+:::{.fragment .fade-in-then-semi-out fragment-index=1}
+Structure
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=2}
+Variable Repeat Numbers
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=3}
+Incomplete Penetrance
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=4}
+[Variable Expressivity]{.smaller-text}
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=5}
+Somatic Instability
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=6}
+Repeat Contraction
+:::
+:::
+::::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=1 style="position:absolute; top: 120px; left: 350px; width: 600px; height: auto;"}
+![](img/hre/C9_path_repeats.png)
+[Smeyers 2021](https://www.frontiersin.org/journals/cellular-neuroscience/articles/10.3389/fncel.2021.661447/full){.img-link}
+:::
+
+:::{.fragment .fade-in fragment-index=2 style="position:absolute; top: 350px; left: 375px; width: 675px; height: auto;"}
+![](img/C9_repeats.png)
+[Rohrer 2015](https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(14)70233-9/fulltext){.img-link}
+:::
+
+
+## C9orf72 Pathogenic Mechanisms
+
+:::{style="position:absolute; top: 200px; left: 100px; width: 850px; height: auto;"}
+![](img/C9_path.png)
+[Ranganathan 2020](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2020.00684/full){.img-link}
+:::
+
+
+## C9orf72 Pathogenic Mechanisms
+### Haploinsufficiency {style="color: gray; font-size: 25pt;"}
+
+:::: {.columns}
+::: {.column width=40%}
+:::{.fragment .fade-in-then-semi-out fragment-index=1}
+Hypermethylation
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=2}
+Dysregulated C9orf72 function
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=3}
+Immune phenotypes
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=4}
+Additive Effects
+:::
+
+:::
+::::
+
+:::{.fragment .fade-in-then-out fragment-index=1 style="position:absolute; top: 75px; left: 450px; width: 400px; height: auto;"}
+![](img/haplo/C9_LOF.png)
+[Braems 2020](https://link.springer.com/article/10.1007/s00401-020-02214-x){.img-link}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=2 style="position:absolute; top: 75px; left: 450px; width: 600px; height: auto;"}
+![](img/c9/c9_func.webp)
+[Braems 2020](https://link.springer.com/article/10.1007/s00401-020-02214-x){.img-link}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=3 style="position:absolute; top: 75px; left: 450px; width: 550px; height: auto;"}
+![](img/haplo/microglia.webp)
+[Rana Abdelhalim](https://www.ataxia.org/scasourceposts/snapshot-what-are-microglia/){.img-link}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=4 style="position:absolute; top: 200px; left: 450px; width: 600px; height: auto;"}
+![](img/haplo/additive.png)
+[Braems 2020](https://link.springer.com/article/10.1007/s00401-020-02214-x){.img-link}
+:::
+
+## C9orf72 Pathogenic Mechanisms
+### RNA Foci {style="color: gray; font-size: 25pt;"}
+
+:::: {.columns}
+::: {.column width=40%}
+:::{.fragment .fade-in-then-semi-out fragment-index=1}
+G-quadruplex structure
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=2}
+Sequester RNA-binding proteins
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=3}
+Frontal Cortex (FTD) and Spinal Cord (ALS)
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=4 style="color: red;"}
+Nucleolar stress
+:::
+
+:::
+::::
+
+
+```{=html}
+<style>
+iframe#app-8C7B {
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  left: 450px;
+  top: 100px;
+}
+</style>
+```
+
+::: {.fragment .fade-in-then-out fragment-index=1}
+{{< mol-rcsb 8C7B >}}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=2 style="position:absolute; top: 75px; left: 450px; width: 500px; height: auto;"}
+![](img/foci/c9_rbp.jpg)
+[Fay 2017](https://www.sciencedirect.com/science/article/pii/S2211124717317606){.img-link}
+:::
+
+:::{.fragment .fade-in fragment-index=3 style="position:absolute; top: 75px; left: 450px; width: 450px; height: auto;"}
+![](img/foci/spinal_cord.png)
+[wiki](https://commons.wikimedia.org/wiki/File:UMN_vs_LMN.png){.img-link}
+:::
+
+
+
+
+## C9orf72 Pathogenic Mechanisms
+### Dipeptide Repeat (DPR) Proteins {style="color: gray; font-size: 25pt;"}
+
+:::: {.columns}
+::: {.column width=40%}
+
+:::{.fragment .fade-in-then-semi-out fragment-index=1}
+Repeat-associated non-ATG (RAN) translation
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=2}
+Different DPRs = Different mechanisms
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=4}
+Selective Neuronal Vulnerability
+:::
+
+:::
+::::
+
+:::{.fragment .fade-in-then-out fragment-index=1 style="position:absolute; top: 150px; left: 450px; width: 550px; height: auto;"}
+![](img/DPR/RAN.jpg)
+[Cleary 2018](https://www.jbc.org/article/S0021-9258(20)35084-5/fulltext){.img-link}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=2 style="position:absolute; top: 125px; left: 450px; width: 600px; height: auto;"}
+![](img/DPR/DPR_reading_frame.jpg)
+[Isaacs Lab](https://adrianisaacslab.com/research/){.img-link}
+:::
+
+:::{.fragment .fade-in fragment-index=3 style="position:absolute; top: 125px; left: 450px; width: 600px; height: auto;"}
+![](img/DPR/DPR_effect.png)
+[Masrori 2022](https://molecularneurodegeneration.biomedcentral.com/articles/10.1186/s13024-022-00525-z){.img-link}
+:::
+
+## C9orf72 Pathogenic Mechanisms
+### Other Molecules {style="color: gray; font-size: 25pt;"}
+
+:::: {.columns}
+::: {.column width=40%}
+
+:::{.fragment .fade-in-then-semi-out fragment-index=1}
+TDP-43
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=2}
+p62
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=3}
+TBK1
+:::
+
+:::
+::::
+
+:::{.fragment .fade-in-then-out fragment-index=1 style="position:absolute; top: 75px; left: 400px; width: 650px; height: auto;"}
+![](img/other/TDP_43_func.jpg)
+[de Mena 2021](https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2021.772226/full){.img-link}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=2 style="position:absolute; top: 75px; left: 400px; width: 600px; height: auto;"}
+![](img/other/p62.jpg)
+[Zaffagnini 2018](https://www.tandfonline.com/doi/full/10.1080/15548627.2018.1462079){.img-link}
+:::
+
+:::{.fragment .fade-in fragment-index=3 style="position:absolute; top: 125px; left: 250px; width: 800px; height: auto;"}
+![](img/other/c9_p62_tbk1.jpg)
+[Corbier 2016](https://www.tandfonline.com/doi/full/10.1080/21541248.2016.1212688#abstract){.img-link}
+:::
+
+
+## C9orf72-related ALS/FTD
+### Treatment {style="color: gray; font-size: 25pt;"}
+
+:::: {.columns}
+::: {.column width=40%}
+
+:::{.fragment .fade-in-then-semi-out fragment-index=1}
+Antisense oligonucleotides (ASOs)
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=2}
+Small Molecule
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=3}
+Gene Therapy?
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=5}
+Timing and location
+:::
+
+:::
+::::
+
+:::{.fragment .fade-in-then-out fragment-index=1 style="position:absolute; top: 75px; left: 400px; width: 475px; height: auto;"}
+![](img/treatment/aso.png)
+[Rinaldi 2017](https://www.nature.com/articles/nrneurol.2017.148){.img-link}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=2 style="position:absolute; top: 150px; left: 400px; width: 600px; height: auto;"}
+![](img/treatment/RNA_RBP.webp)
+[Hentze 2018](https://www.nature.com/articles/nrm.2017.130){.img-link}
+:::
+
+:::{.fragment .fade-in fragment-index=4 style="position:absolute; top: 75px; left: 450px; width: 400px; height: auto;"}
+![](img/treatment/casrx.png)
+[Guo 2022](https://www.cell.com/molecular-therapy-family/nucleic-acids/fulltext/S2162-2531%2822%2900090-7){.img-link}
+:::
+
+## C9-ALS/FTD
+### In the clinic {style="color: gray; font-size: 25pt;"}
+
+:::: {.columns}
+::: {.column width=40%}
+
+:::{.fragment .fade-in-then-semi-out fragment-index=1}
+Diagnosis
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=2}
+Prognosis
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=3}
+Issues
+:::
+
+:::
+::::
+
+:::{.fragment .fade-in-then-out fragment-index=1 style="position:absolute; top: 150px; left: 450px; width: 475px; height: auto; background-color: rgba(200, 204, 200, 0.7);"}
+-   Muscle Biopsy
+-   Cognitive Tests
+-   MRI
+-   Fluid Tests
+-   Family History
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=2 style="position:absolute; top: 150px; left: 450px; width: 475px; height: auto; background-color: rgba(200, 204, 200, 0.7);"}
+-   ALS: 20-48 months
+-   FTD: 3-14 years
+-   ALS/FTD: ~2.5 years
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=3 style="position:absolute; top: 150px; left: 450px; width: 475px; height: auto; background-color: rgba(200, 204, 200, 0.7);"}
+-   Disease mimics
+-   Prolonged diagnosis time
+-   False positives & false negatives
+:::
+
+## C9orf72-related ALS/FTD
+### Unknowns {style="color: gray; font-size: 25pt;"}
+
+:::: {.columns}
+::: {.column width=40%}
+
+:::{.fragment .fade-in-then-semi-out fragment-index=1}
+[Contribution of molecular mechanisms]{.smaller-text}
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=2}
+Complex "interactome"
+:::
+
+:::{.fragment .fade-in fragment-index=3}
+Familial vs. sporadic
+:::
+
+:::
+::::
+
+:::{.fragment .fade-in-then-out fragment-index=1 style="position:absolute; top: 200px; left: 250px; width: 700px; height: auto;"}
+![](img/ALS/ALS_MN.webp)
+[Mead 2022](https://www.nature.com/articles/s41573-022-00612-2){.img-link}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=2 style="position:absolute; top: 200px; left: 350px; width: 600px; height: auto;"}
+![](img/gene-environment.png)
+[Uwaezuoke 2016](https://www.spandidos-publications.com/10.3892/br.2016.781){.img-link}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=3 style="position:absolute; top: 75px; left: 475px; width: 425px; height: auto;"}
+![](img/ALS/fALS_sALS.png)
+[Renton 2013](https://www.nature.com/articles/nn.3584){.img-link}
+:::
+
+## Key Takeaways
+
+

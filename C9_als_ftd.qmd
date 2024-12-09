@@ -185,7 +185,7 @@ Familial and sporadic
 [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/21075-frontotemporal-dementia){.img-link}
 :::
 
-:::{.fragment .fade-in-then-semi-out fragment-index=3 style="position:absolute; top: 50px; left: 550px; width: 450px; height: auto;"}
+:::{.fragment .fade-in fragment-index=3 style="position:absolute; top: 50px; left: 550px; width: 450px; height: auto;"}
 ![](img/FTD/f_s_ftd.webp)
 [AFTD](https://www.theaftd.org/what-is-ftd/genetics-overview/){.img-link}
 :::
@@ -393,9 +393,6 @@ Sequester RNA-binding proteins
 Frontal Cortex (FTD) and Spinal Cord (ALS)
 :::
 
-:::{.fragment .fade-in-then-semi-out fragment-index=4 style="color: red;"}
-Nucleolar stress
-:::
 
 :::
 ::::
@@ -440,12 +437,8 @@ iframe#app-8C7B {
 Repeat-associated non-ATG (RAN) translation
 :::
 
-:::{.fragment .fade-in-then-semi-out fragment-index=2}
+:::{.fragment .fade-in fragment-index=2}
 Different DPRs = Different mechanisms
-:::
-
-:::{.fragment .fade-in-then-semi-out fragment-index=4}
-Selective Neuronal Vulnerability
 :::
 
 :::
@@ -466,44 +459,9 @@ Selective Neuronal Vulnerability
 [Masrori 2022](https://molecularneurodegeneration.biomedcentral.com/articles/10.1186/s13024-022-00525-z){.img-link}
 :::
 
-## C9orf72 Pathogenic Mechanisms
-### Other Molecules {style="color: gray; font-size: 25pt;"}
-
-:::: {.columns}
-::: {.column width=40%}
-
-:::{.fragment .fade-in-then-semi-out fragment-index=1}
-TDP-43
-:::
-
-:::{.fragment .fade-in-then-semi-out fragment-index=2}
-p62
-:::
-
-:::{.fragment .fade-in-then-semi-out fragment-index=3}
-TBK1
-:::
-
-:::
-::::
-
-:::{.fragment .fade-in-then-out fragment-index=1 style="position:absolute; top: 75px; left: 400px; width: 650px; height: auto;"}
-![](img/other/TDP_43_func.jpg)
-[de Mena 2021](https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2021.772226/full){.img-link}
-:::
-
-:::{.fragment .fade-in-then-out fragment-index=2 style="position:absolute; top: 75px; left: 400px; width: 600px; height: auto;"}
-![](img/other/p62.jpg)
-[Zaffagnini 2018](https://www.tandfonline.com/doi/full/10.1080/15548627.2018.1462079){.img-link}
-:::
-
-:::{.fragment .fade-in fragment-index=3 style="position:absolute; top: 125px; left: 250px; width: 800px; height: auto;"}
-![](img/other/c9_p62_tbk1.jpg)
-[Corbier 2016](https://www.tandfonline.com/doi/full/10.1080/21541248.2016.1212688#abstract){.img-link}
-:::
 
 
-## C9orf72-related ALS/FTD
+## C9-ALS/FTD
 ### Treatment {style="color: gray; font-size: 25pt;"}
 
 :::: {.columns}
@@ -521,9 +479,6 @@ Small Molecule
 Gene Therapy?
 :::
 
-:::{.fragment .fade-in-then-semi-out fragment-index=5}
-Timing and location
-:::
 
 :::
 ::::
@@ -533,15 +488,15 @@ Timing and location
 [Rinaldi 2017](https://www.nature.com/articles/nrneurol.2017.148){.img-link}
 :::
 
-:::{.fragment .fade-in-then-out fragment-index=2 style="position:absolute; top: 150px; left: 400px; width: 600px; height: auto;"}
+:::{.fragment .fade-in-then-semi-out fragment-index=2 style="position:absolute; top: 150px; left: 400px; width: 600px; height: auto;"}
 ![](img/treatment/RNA_RBP.webp)
 [Hentze 2018](https://www.nature.com/articles/nrm.2017.130){.img-link}
 :::
 
-:::{.fragment .fade-in fragment-index=4 style="position:absolute; top: 75px; left: 450px; width: 400px; height: auto;"}
-![](img/treatment/casrx.png)
-[Guo 2022](https://www.cell.com/molecular-therapy-family/nucleic-acids/fulltext/S2162-2531%2822%2900090-7){.img-link}
-:::
+<!-- :::{.fragment .fade-in fragment-index=3 style="position:absolute; top: 75px; left: 450px; width: 400px; height: auto;"} -->
+<!-- ![](img/treatment/casrx.png) -->
+<!-- [Guo 2022](https://www.cell.com/molecular-therapy-family/nucleic-acids/fulltext/S2162-2531%2822%2900090-7){.img-link} -->
+<!-- ::: -->
 
 ## C9-ALS/FTD
 ### In the clinic {style="color: gray; font-size: 25pt;"}
@@ -584,7 +539,7 @@ Issues
 -   False positives & false negatives
 :::
 
-## C9orf72-related ALS/FTD
+## C9-ALS/FTD
 ### Unknowns {style="color: gray; font-size: 25pt;"}
 
 :::: {.columns}
@@ -620,6 +575,48 @@ Familial vs. sporadic
 [Renton 2013](https://www.nature.com/articles/nn.3584){.img-link}
 :::
 
-## Key Takeaways
+# Thank you!
+
+::: {.footer}
+[LinkedIn](https://www.linkedin.com/in/andy-vandomelen/)
+:::
+
+#
 
 
+## C9orf72 Pathogenic Mechanisms
+### Other Molecules {style="color: gray; font-size: 25pt;"}
+
+:::: {.columns}
+::: {.column width=40%}
+
+:::{.fragment .fade-in-then-semi-out fragment-index=1}
+TDP-43
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=2}
+p62
+:::
+
+:::{.fragment .fade-in-then-semi-out fragment-index=3}
+TBK1
+:::
+
+:::
+::::
+
+:::{.fragment .fade-in-then-out fragment-index=1 style="position:absolute; top: 75px; left: 400px; width: 650px; height: auto;"}
+![](img/other/TDP_43_func.jpg)
+
+[de Mena 2021](https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2021.772226/full){.img-link}
+:::
+
+:::{.fragment .fade-in-then-out fragment-index=2 style="position:absolute; top: 75px; left: 400px; width: 600px; height: auto;"}
+![](img/other/p62.jpg)
+[Zaffagnini 2018](https://www.tandfonline.com/doi/full/10.1080/15548627.2018.1462079){.img-link}
+:::
+
+:::{.fragment .fade-in fragment-index=3 style="position:absolute; top: 125px; left: 250px; width: 800px; height: auto;"}
+![](img/other/c9_p62_tbk1.jpg)
+[Corbier 2016](https://www.tandfonline.com/doi/full/10.1080/21541248.2016.1212688#abstract){.img-link}
+:::
